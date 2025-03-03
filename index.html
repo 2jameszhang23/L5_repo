@@ -12,7 +12,7 @@
             let response = await fetch(apiUrl);
             
             if (!response.ok) {
-                document.getElementById("file-list").innerHTML = "<p class='text-red-500 text-center'>❌ 读取失败！</p>";
+                document.getElementById("file-list").innerHTML = "<p class='text-red-500 text-center'>❌ Unable to load!</p>";
                 return;
             }
             let files = await response.json();
