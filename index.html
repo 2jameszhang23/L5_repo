@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>GitHub 文件浏览</title>
+    <title>📂 文件浏览器</title>
     <script>
-        async function loadFiles() {
+        async function loadFiles(path="") {
             const repo = "2jameszhang23/L5_repo";
-            const apiUrl = `https://api.github.com/repos/${repo}/contents/`;
+            const apiUrl = `https://api.github.com/repos/${repo}/contents/${path}`;
 
             let response = await fetch(apiUrl);
+            if (!response.ok) {
+                document.getElementById("file-list").innerHTML = "<p>❌ 读取失败！</p>";
+                return;
+            }
             let files = await response.json();
 
             let list = document.getElementById("file-list");
@@ -16,18 +20,28 @@
             files.forEach(file => {
                 let item = document.createElement("li");
                 let link = document.createElement("a");
-                link.href = file.download_url;
                 link.textContent = file.name;
+                
+                if (file.type === "dir") {
+                    link.href = `?path=${file.path}`;
+                } else {
+                    link.href = file.download_url;
+                }
+
                 item.appendChild(link);
                 list.appendChild(item);
             });
         }
 
-        window.onload = loadFiles;
+        window.onload = () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const path = urlParams.get('path') || "";
+            loadFiles(path);
+        };
     </script>
 </head>
 <body>
-    <h1>📂 文件列表</h1>
+    <h1>📂 文件浏览器</h1>
     <ul id="file-list">加载中...</ul>
 </body>
 </html>
