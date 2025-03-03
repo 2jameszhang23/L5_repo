@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GitHub 文件浏览</title>
+    <script>
+        async function loadFiles() {
+            const repo = "2jameszhang23/L5_repo";
+            const apiUrl = `https://api.github.com/repos/${repo}/contents/`;
+
+            let response = await fetch(apiUrl);
+            let files = await response.json();
+
+            let list = document.getElementById("file-list");
+            list.innerHTML = "";
+
+            files.forEach(file => {
+                let item = document.createElement("li");
+                let link = document.createElement("a");
+                link.href = file.download_url;
+                link.textContent = file.name;
+                item.appendChild(link);
+                list.appendChild(item);
+            });
+        }
+
+        window.onload = loadFiles;
+    </script>
+</head>
+<body>
+    <h1>📂 文件列表</h1>
+    <ul id="file-list">加载中...</ul>
+</body>
+</html>
