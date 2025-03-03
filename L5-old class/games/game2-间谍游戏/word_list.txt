@@ -1,0 +1,100 @@
+A computer uses character sets like ASCII and Unicode.
+ASCII uses 7 bits, Unicode uses 16 or 32 bits.
+Unicode supports more characters than ASCII.
+Text is converted to binary for processing.
+ASCII represents basic English, Unicode supports many languages.
+Sound waves are converted into binary data.
+Sample rate determines how many samples are taken per second.
+Sample resolution refers to the bits used for each sample.
+Higher sample rate and resolution = better quality, larger size.
+Digital images are represented as a grid of pixels in binary.
+Image resolution is determined by the number of pixels.
+Colour depth refers to bits per pixel for colour.
+Higher resolution and colour depth = better quality, larger size.
+Data is measured in bits, bytes, kilobytes, megabytes.
+A bit is the smallest data unit, 8 bits make a byte.
+A nibble is 4 bits, a kibibyte is 1024 bytes.
+A gibibyte is 1024 mebibytes, a tebibyte is 1024 gibibytes.
+Image and sound file sizes depend on resolution, sample rate, and bit depth.
+Lossless compression keeps all data (e.g., RLE).
+Lossy compression reduces size by discarding some data (e.g., JPEG, MP3).
+Compression saves space, reduces bandwidth, and speeds up transmission.
+Data is transmitted in packets with header, payload, and trailer.
+A packet header contains destination info and packet number.
+Packet switching sends data in packets, taking different routes.
+Routers direct data packets across a network.
+Packets may arrive out of order and are reordered on arrival.
+Serial transmission sends one bit at a time, parallel sends multiple bits.
+Simplex allows data to flow one way, duplex allows two-way.
+Full-duplex enables simultaneous two-way communication.
+USB is used for data transfer between devices.
+Parity check ensures the number of 1s is even or odd.
+A checksum verifies data integrity during transmission.
+Echo check sends data back to confirm accuracy.
+A check digit validates data (e.g., ISBN, barcode).
+ARQ requests retransmission if errors occur in data.
+Symmetric encryption uses the same key for encryption and decryption.
+Asymmetric encryption uses public and private keys for security.
+Encryption protects data during transmission.
+A CPU processes data and instructions.
+A microprocessor is the CPU on a single chip.
+The fetch-decode-execute cycle is how a CPU processes instructions.
+Registers in a CPU hold data and instructions.
+A core in a CPU is a unit that can process instructions.
+Cache memory stores frequently used data for faster access.
+The CPU clock controls the timing of operations.
+Embedded systems are designed for specific tasks.
+Embedded systems are used in devices like cars and appliances.
+Input devices send data to a computer (e.g., keyboard, mouse).
+Output devices display data (e.g., printer, monitor).
+Sensors capture data (e.g., temperature, pressure).
+Actuators perform actions based on data (e.g., motors, valves).
+Data storage is classified as primary (RAM, ROM) or secondary (hard drives).
+RAM is volatile memory for fast data access.
+ROM is non-volatile memory storing permanent instructions.
+Magnetic storage uses spinning disks, optical uses lasers.
+Solid-state storage stores data on chips, faster than magnetic.
+Virtual memory uses hard drive space as if it were RAM.
+Cloud storage is remote storage via the internet.
+Cloud storage requires a stable internet connection.
+Local storage is faster and more secure, but needs physical hardware.
+A NIC allows a computer to connect to a network.
+A MAC address uniquely identifies a network device.
+An IP address identifies a device on a network (IPv4 or IPv6).
+IPv4 addresses use 32 bits, IPv6 uses 128 bits.
+Routers forward data packets within a network.
+A switch connects devices in a local area network (LAN).
+System software manages hardware and runs applications.
+Application software performs tasks for the user (e.g., word processors).
+The OS manages hardware, memory, and peripherals.
+Interrupts signal the CPU to handle urgent tasks.
+Hardware interrupts come from physical devices needing attention.
+Software interrupts are triggered by program errors.
+High-level programming languages are easy to read and write.
+Low-level programming languages give more control over hardware.
+A compiler converts code into machine code before execution.
+An interpreter translates code line by line.
+An IDE combines tools like editors, debuggers, and compilers.
+IDEs help developers write code with features like syntax highlighting.
+A compiler shows an error report after translating code.
+HTML is used for creating web pages; CSS styles them.
+A URL is the web address of a page or resource.
+HTTP transfers web pages; HTTPS is the secure version.
+A web browser retrieves and displays web pages.
+Cookies store user data like preferences or activity.
+Session cookies are temporary; persistent cookies are longer-term.
+DNS translates URLs into IP addresses.
+Web pages are retrieved using HTTP requests.
+Routers assign IP addresses within a network.
+The OS manages multitasking and allows running multiple programs.
+Utility programs perform maintenance tasks (e.g., virus scans).
+Data transmission methods include serial, parallel, and duplex.
+Symmetric encryption uses one key; asymmetric uses two.
+A checksum verifies data integrity.
+Blockchain records transactions securely in a decentralized ledger.
+Machine learning lets computers learn from data and make decisions.
+AI simulates human intelligence, including learning and reasoning.
+Brute-force attacks try all possible passwords.
+Data interception occurs when unauthorized access happens during transmission.
+DDoS attacks overwhelm servers with traffic, causing crashes.
+Malware includes viruses, worms, and ransomware.

@@ -1,0 +1,27 @@
+Game board (for spies):
+
+1. Cache memory stores frequently used data for faster access.
+2. Virtual memory uses hard drive space as if it were RAM.
+3. A compiler shows an error report after translating code.
+4. USB is used for data transfer between devices.
+5. Higher sample rate and resolution = better quality, larger size.
+6. HTTP transfers web pages; HTTPS is the secure version.
+7. Actuators perform actions based on data (e.g., motors, valves).
+8. A web browser retrieves and displays web pages.
+9. Sample rate determines how many samples are taken per second.
+10. Software interrupts are triggered by program errors.
+11. Lossless compression keeps all data (e.g., RLE).
+12. A MAC address uniquely identifies a network device.
+13. Image and sound file sizes depend on resolution, sample rate, and bit depth.
+14. Brute-force attacks try all possible passwords.
+15. Text is converted to binary for processing.
+16. Sensors capture data (e.g., temperature, pressure).
+17. A URL is the web address of a page or resource.
+18. Sample resolution refers to the bits used for each sample.
+19. A core in a CPU is a unit that can process instructions.
+20. Data transmission methods include serial, parallel, and duplex.
+21. An interpreter translates code line by line.
+22. A check digit validates data (e.g., ISBN, barcode).
+23. Lossy compression reduces size by discarding some data (e.g., JPEG, MP3).
+24. Echo check sends data back to confirm accuracy.
+25. DNS translates URLs into IP addresses.
